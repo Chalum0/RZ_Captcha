@@ -1,4 +1,4 @@
-RZ Captcha
+# RZ Captcha
 
 This prestashop module provides a captcha protection for your website.
 It is compatible with Prestashop versions 1.6.x. It uses google reCaptcha v2 visible therefore you'll need to create a google account and create a site key and secret key in order to use the module.
