@@ -2,7 +2,7 @@
 <module>
 	<name>rz_captcha</name>
 	<displayName><![CDATA[RZ Captcha]]></displayName>
-	<version><![CDATA[1.0.0]]></version>
+	<version><![CDATA[1.1.0]]></version>
 	<description><![CDATA[This module adds a captcha to prestashop&#039;s default contact form.]]></description>
 	<author><![CDATA[Rapha&euml;l Zanatta]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

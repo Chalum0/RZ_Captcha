@@ -9,7 +9,7 @@ class Rz_Captcha extends Module
     {
         $this->name = "rz_captcha";
         $this->tab = "front_office_features";
-        $this->version = "1.1.0";
+        $this->version = "1.1.1";
         $this->author = "Raphaël Zanatta";
         $this->need_instance = 0;
         $this->ps_versions_compliancy = [
@@ -205,6 +205,10 @@ class Rz_Captcha extends Module
         if (!empty($params['moduleName']) && $params['moduleName'] !== 'contactform') {
             return '';
         }
+
+        if ($this->context->controller->php_self !== 'contact') {
+                return '';
+            }
 
         $this->context->smarty->assign([
             'recaptcha_site_key' => Configuration::get('RZ_CAPTCHA_RECAPTCHA_SITE_KEY'),
